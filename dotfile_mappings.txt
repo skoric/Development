@@ -1,3 +1,4 @@
 # format: source_path -> destination_path
 
 ~/.zshrc -> dotfiles/.zshrc
+~/.zprofile -> dotfiles/.zprofile
