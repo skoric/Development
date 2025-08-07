@@ -2,3 +2,4 @@
 
 ~/.zshrc -> dotfiles/.zshrc
 ~/.zprofile -> dotfiles/.zprofile
+~/.config/nvim/ -> dotfiles/nvim/
