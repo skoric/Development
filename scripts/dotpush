@@ -21,4 +21,4 @@ while IFS= read -r line; do
 done < "$MAP_FILE"
 
 # Push to repo
-git add $ROOT_DIR && git commit -m "Update dotfiles" && git push
+cd $ROOT_DIR && git add $ROOT_DIR && git commit -m "Update dotfiles" && git push
