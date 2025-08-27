@@ -32,3 +32,26 @@ Plug 'tpope/vim-commentary'
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
+
+" Enable relative line numbers
+set relativenumber
+
+" Optional: Also show the current line number (hybrid mode)
+set number
+
+" Set space as leader
+let mapleader = " "
+
+" Open file browser (uses IntelliJ's project view)
+nnoremap <leader>pv :action ActivateProjectToolWindow<CR>
+
+" Reformat file (uses IntelliJ's reformat action)
+nnoremap <leader>rf :action ReformatCode<CR>
+
+" File navigation (IntelliJ equivalents to Telescope)
+nnoremap <leader>f :action GotoFile<CR>
+nnoremap <leader>e :action RecentFiles<CR>
+nnoremap <leader>s :action SearchEverywhere<CR>
+
+" Save all files
+nnoremap <leader>W :action SaveAll<CR>
