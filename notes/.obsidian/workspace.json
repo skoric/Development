@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tmux Cheatsheet.md",
+                "file": "Lytr/Weight Loss Guidance Engine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tmux Cheatsheet"
+              "title": "Weight Loss Guidance Engine"
+            }
+          },
+          {
+            "id": "f96b48946e9658f3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,9 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a13626f4a248d2a",
+  "active": "f96b48946e9658f3",
   "lastOpenFiles": [
-    "Brew Cheatsheet.md",
-    "Tmux Cheatsheet.md"
+    "Tmux Cheatsheet.md",
+    "Lytr/Weight Loss Guidance Engine.md",
+    "Lytr",
+    "Brew Cheatsheet.md"
   ]
 }
